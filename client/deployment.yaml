@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: client
-        image: patelkarishma10/client:{{TAG}}
+        image: patelkarishma10/client:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
