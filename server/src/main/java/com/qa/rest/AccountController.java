@@ -29,7 +29,7 @@ public class AccountController {
 	@RequestMapping("/getAllAccounts")
 	public List<Account> getAllAccounts() {
 
-		return "{\"message\": \"account has been successfully updated\"}";
+		return "works";
 // 		return service.getAllAccounts();
 	}
 
