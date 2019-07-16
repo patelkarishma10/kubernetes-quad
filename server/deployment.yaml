@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: server
-        image: bobcrutchley/quad-server:latest
+        image: patelkarishma10/quad-server:latest
         ports:
         - containerPort: 8080
         env:
