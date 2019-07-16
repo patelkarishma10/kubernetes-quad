@@ -29,7 +29,8 @@ public class AccountController {
 	@RequestMapping("/getAllAccounts")
 	public List<Account> getAllAccounts() {
 
-		return service.getAllAccounts();
+		return "change worked"
+// 		return service.getAllAccounts();
 	}
 
 	@RequestMapping("/getAccount/{id}")
